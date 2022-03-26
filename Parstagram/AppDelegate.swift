@@ -2,10 +2,11 @@
 //  AppDelegate.swift
 //  Parstagram
 //
-//  Created by Fuby on 3/20/22.
+//  Created by Xiqi on 3/20/22.
 //
 
 import UIKit
+import Parse
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,6 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        let parseConfig = ParseClientConfiguration {
+                $0.applicationId = "fKt0Ds8v9f4qGl14YPlvdbB20oo8KdvI18LsDwdS" // <- UPDATE
+                $0.clientKey = "8t51IJUrx1JHpX3IjpGzsaQaJIJF04d2zxKjcV9k" // <- UPDATE
+                $0.server = "https://parseapi.back4app.com"
+        }
+        Parse.initialize(with: parseConfig)
+        
         return true
     }
 
