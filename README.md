@@ -23,12 +23,15 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 Sign Up
+
 <img src='https://i.imgur.com/xXnQ9fH.gif' title='Sign Up' width='' alt='Sign Up' /><br>
 
 
 Take a photo, add a caption, and post
+
 <img src='https://i.imgur.com/zRicgl2.gif' title='Post' width='' alt='Post' /><br>
 
 View posts
+
 <img src='https://i.imgur.com/Yv8jQTy.gif' title='View posts' width='' alt='View posts' /><br>
 
